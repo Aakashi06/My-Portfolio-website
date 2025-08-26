@@ -3,6 +3,3 @@
 # Tech Stack 
 HTML, CSS
 
-
-
-
