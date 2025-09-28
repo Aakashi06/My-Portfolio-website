@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio - Projects</title>
+  <link rel="stylesheet" href="./src/styles/styles.css" />
+</head>
+<body>
+  <div id="navbar"></div>
+  <script>
+    fetch('navbar.html').then(res => res.text()).then(data => {
+      document.getElementById('navbar').innerHTML = data;
+    });
+  </script>
+
+  <main class="container">
+    <section class="glass section">
+      <h2>All Projects</h2>
+      <div class="grid">
+        <!-- Full list of projects here -->
+      </div>
+    </section>
+  </main>
+</body>
+</html>
